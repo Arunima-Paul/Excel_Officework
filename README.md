@@ -21,8 +21,10 @@ therefore I used screenshots of each process to showcase the analysis.
 (i) Filtering by module: Only records from “BIDHANNAGAR” are retained, filtering via the MOD_NAME column.
 
 (ii) Replacing NULLs:
-SMECC_RACC_CODE nulls replaced with CUSTOMER_BRN_CODE
+SMECC_RACC_CODE nulls replaced with CUSTOMER_BRN_CODE,
+
 SMECC_RACC_NAME nulls replaced with CUSTOMER_BRN_NAME
+
 Conditional Columns were added in Power Query for this process.
 
 (iii) Sanction Date (SANC_DT) cleanup: Nulls from Sanction Date are excluded because we only require the Sanctioned records, Null in date means these loans are not yet sanctioned by branch.
@@ -71,5 +73,6 @@ Cleaning and transforming data
 Generating stakeholder-ready reports
 
 Thank You
+
 Arunima Paul
 
